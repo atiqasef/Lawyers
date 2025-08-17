@@ -81,7 +81,7 @@ const MyBookings = () => {
 
       {appointments.length > 0 && (
         <BarChart
-          width={600}
+          width={1100}
           height={300}
           data={data}
           margin={{ top: 20, right: 30, left: 20, bottom: 40 }}
